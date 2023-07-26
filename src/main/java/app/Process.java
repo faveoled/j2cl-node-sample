@@ -15,7 +15,6 @@ public class Process {
     @JsProperty(name="argv")
     public static native JsArray<String> getArgv();
 
-
     @JsMethod(name="hrtime")
     public static native JsArray<Integer> hrtime();
 
